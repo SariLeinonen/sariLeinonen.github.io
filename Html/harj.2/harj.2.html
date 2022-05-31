@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: rgb(45, 36, 36);">
+
+<!--Hieno väripaletti pitää pistää muistiin-->
+
+ <style>
+h1{
+    color:rgb(192, 72, 25);
+}
+h2{
+    color:rgb(184, 92, 56);
+}
+p{
+     color:rgb(224, 196, 158);
+}
+ul{
+    color:rgb(204, 135, 108);
+}
+ol{
+    color:rgb(204, 135, 108);
+}
+pre{
+    color:rgb(204, 108, 132);
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:rgb(204, 108, 132);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color:rgb(192, 25, 81);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+</style>
+
+<h1 id="html-perusteet-ja-y-perhoset">HTML perusteet ja yöperhoset</h1>
+
+<p>Tällä nettisivulla kerron HTML perusteet kuten:
+Kuinka tehdä otsikko, tekstikappale, lista, kuinka liittää kuva nettisivullesi ja kuinka lisätä linkki sivullesi samalla kun kerron yöperhosista.
+(kerron viimeisenä miten olen tehnyt esim kuvan liittämisen)</p>
+
+<h2 id="kpl1-y-perhoset">Kpl1 Yöperhoset</h2>
+
+<p>Yöperhosista suurin osa on yöeläimiä, mutta on myös harvoja jotka lentävät päivällä.
+ Yöperhosia on noin 160 000-lajia joista monia ei olla vielä pystytty kuvaamaan</p>
+
+<h2 id="kpl2-y-perhosten-ja-p-iv-perhosten-ero">Kpl2 Yöperhosten ja päiväperhosten ero</h2>
+
+<p>Yöperhoset ovat yleensä harmaita tai ruskeita, koska tumma väri kerää hyvin auringonvaloa päivällä ja naamioi ne saalistajilta,
+ jotkut tosin ovat värikkäitä sillä ne viestittävät saalistajille olevansa pahanmakuisia tai myrkyllisiä.
+ Ne ovat myös yleensä karvaisia ja tukevarakenteisia.</p>
+
+<h2 id="kpl3-erilaiset-y-perhoset">Kpl3 Erilaiset yöperhoset</h2>
+
+<p>Yöperhosia on monenlaisia alle laitan listan muutamasta eri uhanalaisesta yöperhosesta suomessa ja listan suomen isoimmista yökkösistä.</p>
+
+    <ul>
+        <li>Kupariyökkönen</li>
+        <li>Loistokaapuyökkönen </li>
+        <li>Pörhönopsayökkönen </li>
+        <li>Kolmiviiruyökkönen </li>
+        <li>Valemorsiusyökkönen </li>
+        <li>Viheryökkönen </li>
+    </ul>
+
+<p><img src="kuvat/viheryökkönen.PNG" alt="Kuva_viheryökkösestä"></p>
+
+<!--jotain.mm on siipien välin mitta-->
+
+    <ol>
+        <li>Nastakehrääjä 65-92mm</li>
+        <li>Isomaayökkönen 47-66mm</li>
+        <li>Isomorsiusyökkönen 50-60mm</li>
+        <li>Lounaanmorsiusyökkönen 49-60mm</li>
+        <li>Huhtiyökkönen 49-56mm</li>
+    </ol>
+
+<h2>Lähteet</h2>
+<a href="https://fi.wikipedia.org/wiki/Y%C3%B6perhonen" 
+    target="_blank">wikipedia yöperhosista,</a>
+<a href="https://en.wikipedia.org/wiki/Moth" 
+    target="_blank">wikipedia eng yöperhosista,</a>
+<a href="https://www.suomen-perhoset.fi/category/suurperhoset/#nav" 
+    target="_blank">Tietoa yöperhosista,</a>
+<a href="https://www.w3schools.com/html/default.asp" 
+    target="_blank">Koodaus.</a>
+
+<h2 id="kpl4-html">Kpl5 HTMl</h2>
+
+<p>Tässä kappaleessa kerron miten tein muut kappaleet.</p>
+
+<p> <strong>kpl1 ja 2</strong></p>
+
+<p>Kappale ykkösessä tein otsikon 
+<strong>headingin</strong>headingia voi käyttää myös alaotsikkona niinkun tein muissa kappaleissa.</p>
+
+<p>Headingin saa koodilla <u>h1-h6</u></p>
+
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Otsikko1<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Otsikko2<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>
+</code></pre>
+
+<p>Headingisseja voi myös isontaa koodilla</p>
+
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"font-size:30px;"</span>&gt;</span>Otsikko<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>
+</code></pre>
+
+<p><strong>Paragraph</strong></p>
+
+<pre><code><span class="hljs-section">&lt;p&gt;</span>
+</code></pre>
+
+<p>paragraphit ovat tekstikappaleita joihin voi vapaasti kirjoittaa tekstiä.<br>Esimerkki</p>
+
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hei kaikki<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+
+<p>Ja jos haluat vaihtaa riviä</p>
+
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hei<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>kaikki <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+
+<p><strong>Kpl3</strong></p>
+
+<p>Kappale kolmosessa tein kaksi erilaista listaa numerollisen ja ei numerollisen ja lisäsin kuvan.</p>
+
+<p>Numerollinen</p>
+
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Yksi<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Kaksi<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Kolme<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span> 
+</code></pre>
+
+<p>Ei numerollinen</p>
+
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Yöperhonen<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Perhonen<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Koi<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span> 
+</code></pre>
+
+<p>Tässä miltä se näyttää käytännössä</p>
+
+    <ul>
+        <li>perhonen</li>
+        <li>koi</li>
+        <li>yksi</li>
+        <li>kaksi</li>
+    </ul>
+
+<p>Kuinka lisätä<strong>kuva</strong></p>
+
+<pre><code>&lt;<span class="hljs-selector-tag">img</span> src=<span class="hljs-string">"kuvat/Otus.png"</span> alt=<span class="hljs-string">"Pääkallokiitäjä"</span>&gt;</code></pre>
+
+<p>Tässä miltä se näyttää käytännössä</p>
+
+<img src="kuvat/Otus.png" alt="Pääkallokiitäjä">
+
+<p><strong>Linkit</strong></p>
+
+<pre><code>&lt;<span class="hljs-keyword">a</span> href=<span class="hljs-string">"https://fi.wikipedia.org/wiki/Y%C3%B6perhonen.com/ 
+    target="</span><span class="hljs-title">_blank</span><span class="hljs-string">"</span>&gt;Lisätietoa yöperhosista&lt;/<span class="hljs-keyword">a</span>&gt;
+</code></pre>
+    
+</body>
+</html>

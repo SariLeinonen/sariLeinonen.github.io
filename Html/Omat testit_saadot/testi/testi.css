@@ -1,0 +1,24 @@
+@media (max-widht:960px){
+    body{
+      display: grid;
+      grid-template-areas:
+      'header header header header header header'
+      'nav nav nav nav nav nav'
+      'article article article article article article'
+      'footer footer footer footer footer footer';
+      background-color: aqua;
+      grid-gap: 10px;
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 450px){
+      body{
+          display: flex;
+          flex-direction: column;
+          background-color: blueviolet;
+          padding: 3px;
+          font-size: 10px;
+      }
+  }

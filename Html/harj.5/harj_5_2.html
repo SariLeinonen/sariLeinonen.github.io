@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>harj_5_2</title>
+    <link rel="stylesheet" href="harj_5.css">
+</head>
+<body>
+    <div class="otsikko">
+        <h1>Ravintola Lapintaika</h1>
+        <p>Joka päivä lounas! Hinta 11euroa (sisältää ruokajuoman: vesi, kotikalja, maito)</p>
+      </div>
+      
+      <div class="topnav">
+        <a href="harj_5_2.html">Etusivu</a>
+        <a href="maintance.html">Ruokalista</a>
+        <a href="maintance.html">Pöytävaraukset</a>
+        <a href="maintance.html" style="float:right">Yhteystiedot</a>
+      </div>
+      
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Ruokalista</h2>
+
+            <div class="boxi">
+                <u>Maanantai</u>:<br>
+                Juusto-vihanneskeittoa ja kokin sämpylä Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia Marjakiisseliä ja hunajakermavaahtoa<br>
+                
+                <u>Tiistai</u>:<br>
+                
+                Kana-fetajustosalaattia ja kokin sämpylä Paistettua punakampelaa, pinaattikastiketta ja perunamuusia Pannukakkua, mansikkahilloa ja kermavaahtoa<br>
+                
+                <u>Keskiviikko</u>:<br>
+                
+                Tomaatti-yrttikeittoa ja kokin sämpylä Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia Omenapiirakkaa ja vaniljakastiketta<br>
+                
+                <u>Torstai</u>:<br>
+                
+                Rapukeittoa ja kokin sämpylä Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja Hedelmäsalaattia ja kinuskikastiketta<br>
+                
+                <u>Perjantai</u>:<br>
+                
+                Savulohisalaatti ja kokin sämpylä Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia Suklaamousse</div>
+
+        </div>
+          <div class="card">
+            <h2><u>Asiakaspalautelomake</u></h2>
+            <div class="boxi">
+                <form method="POST">
+                  <table class="kyselyt">
+                    <tbody><tr>
+                    <td>Käynti päivä</td>
+                    <td><input type="date"></td>
+                  </tr>
+                  <tr>
+                    <td><hr></td>
+                    <td><hr></td>
+                  </tr>
+                  <tr>
+                    <td>Palaute mausta</td>
+                    <td><textarea name="palaute"> Palaute </textarea></td>
+                  </tr>
+                  <tr>
+                    <td>Kuinka kauan odotitte ruokaa</td>
+                    <td><input type="time"></td>
+                  </tr>
+                  <tr>
+                    <td>Oliko ravintolassa riittävän lämmin</td>
+                    <td><textarea name="Lampotila">Palaute</textarea></td>
+                  </tr>
+                  <tr>
+                    <td>Oliko hintalaatusuhde sopiva</td>
+                    <td><textarea name="hintalaatusuhde">Palaute</textarea></td>
+                  </tr>
+                  <tr>
+                    <td>Pelasiko palvelu</td>
+                    <td><textarea name="palvelu">Palaute</textarea></td>
+                  </tr>
+                  <tr>
+                    <td>Vapaa palaute</td>
+                    <td><textarea name="vapaa">Palaute</textarea></td>
+                  </tr>
+                  <tr>
+                    <td>Joss haluat että otamme sinuun yhteyttä ongelmiisi liittyen laitathan sähköpostisi tähän</td>
+                    <td><input type="email"></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td><button onclick="Kyselysubmit()">Submit</button></td>
+                    <script src="saadot.js"></script>
+                  </tr>
+                  </tbody>
+                  </table>
+                </form>
+            </div>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <div><h2>Yhteystiedot ja Aukioloajat</h2>
+        <p>Ravintola Lapintaika, Ravintolakatu 2, 98765 Lapinmaa <br>
+            Puh. (012) 345 6789 Sähköposti: varaukset@jokuposti.net <br>
+            Aukioloajat: ma-pe, 10:30-15:00 </p></div>
+      </div>
+      
+</body>
+</html>

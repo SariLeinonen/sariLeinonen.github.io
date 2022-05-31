@@ -1,0 +1,24 @@
+body {
+    background-color:rgb(245, 232, 199);
+}
+
+li {
+    background-color:rgb(231, 195, 165);
+}
+table{
+    background-color: rgb(231, 195, 165);
+    width: 200px;
+}
+img{
+    width: 150px;
+
+}
+.otsikko {
+    padding: 10px;
+    text-align: center;
+    color:rgb(92, 65, 76);
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }

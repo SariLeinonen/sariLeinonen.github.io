@@ -1,0 +1,83 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background-image: url('revontulet.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .otsikko {
+    padding: 30px;
+    text-align: center;
+    background: rgba(154, 229, 230, 0.548);
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(41, 115, 115, 0.747);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: rgba(16, 79, 85, 0.589);
+    color: rgb(255, 253, 253);
+  }
+  
+  .leftcolumn {   
+    width: 100%;
+  }
+  .boxi {
+    background-color: rgb(113, 197, 197);
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: rgb(61, 121, 121);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  @media (max-widht:400px){
+    body{
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+      font: 14px;
+    }
+    input[type=textarea]{
+      width: 10px;
+    }
+  }
+  
